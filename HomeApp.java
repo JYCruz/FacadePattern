@@ -8,11 +8,13 @@ public class HomeApp{
 
         HomeInterface homeInterface = new HomeInterface(lights, tv, airConditioning);
 
-        System.out.println("Turn on all---------------");
+        System.out.println("--------------------------------");
+        System.out.println("Turn on all!");
         homeInterface.turnOnAll();
-        System.out.println("");
-        System.out.println("Turn off all---------------");
+        System.out.println("--------------------------------");
+        System.out.println("Turn off all!");
         homeInterface.turnOffAll();
+        System.out.println("--------------------------------");
 
     }
 }
